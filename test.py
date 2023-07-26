@@ -6,6 +6,6 @@ nb = pynetbox.api(
             token=tnetbox
         )
 nb.http_session.verify = False
-devices = nb.dcim.devices.get(name=''MTLKJHIU76')
+devices = nb.dcim.devices.get(name='MTLKJHIU76')
 print(devices)
 
